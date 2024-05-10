@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreport>
+	<configuration>
+	<theme>standard</theme>
+	<encoding>UFT-8</encoding>
+	<protocol>https</protocol>
+	<documentTitle>Prybar.art - Cucumber Framework</documentTitle>
+	<reportName>Prybar.art - Cucumber Report</reportName>
+	<dateFormat>yyyy-MM-dd</dateFormat>
+	<timeFormat>HH:mm:ss</timeFormat>
+	<scripts>
+		<![CDATA[ 
+		$(document).ready(function() {
+
+		});
+		]]>
+	</scripts>
+	<styles>
+		-<![CDATA[ 
+		]]>
+	  </styles>
+	</configuration>
+</extentreport>

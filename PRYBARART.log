@@ -1,0 +1,156 @@
+
+inside TestContext
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+in ArtworkSteps
+context =cucumber.TestContext@37b56ac7
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+inside TestContext
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+in ArtworkSteps
+context =cucumber.TestContext@3e74fd84
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+inside TestContext
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+in ArtworkSteps
+context =cucumber.TestContext@6408be5
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+inside TestContext
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+in ArtworkSteps
+context =cucumber.TestContext@1e965426
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+inside TestContext
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+in ArtworkSteps
+context =cucumber.TestContext@3d5e3f58
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
