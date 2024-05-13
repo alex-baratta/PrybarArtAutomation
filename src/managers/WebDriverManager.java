@@ -86,7 +86,7 @@ public class WebDriverManager {
         chromeOption.addArguments("--disable-dev-shm-usage");
         chromeOption.addArguments("--disable-gpu");
         chromeOption.addArguments("--ignore-certificate-errors");
-        chromeOption.setBrowserVersion("120");
+        chromeOption.setBrowserVersion("124");
         chromeOption.addArguments("--incognito");
         chromeOption.setExperimentalOption("prefs", chromePrefs);
         driver = new ChromeDriver(chromeOption);

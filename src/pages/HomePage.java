@@ -57,7 +57,7 @@ public class HomePage extends Base{
 		CoreFunctions.explicitWaitTillElementVisibility(driver, _postTitle, "HELLO", 60);
 	}
 	
-	public void expandArtworkDropDownOptionAndSelect() {
+	public void expandArtworkDropDownOption() {
 				
 				CoreFunctions.hover(driver,_artworkDropDownArtwork);
 	}

@@ -13,6 +13,7 @@ import org.testng.Assert;
 
 import controller.Base;
 import controller.CoreFunctions;
+import cucumber.CustomReportListener;
 import managers.FileReaderManager;
 import managers.Log;
 
@@ -31,9 +32,21 @@ public class Artwork_ArtistStatementPage extends Base {
 	@FindBy(how = How.CSS, using=".main-menu")
 	private WebElement _HomeHeader;
 	
+	@FindBy(how = How.XPATH, using="//blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']")
+	private WebElement _BlockQuote;
+	
+	
 	public void lookForPageTitle() {
     	Log.info("attempting to look for page title");
 		CoreFunctions.waitForBrowserToLoad(driver);
 		CoreFunctions.explicitWaitTillElementVisibility(driver, _postTitle, "Artist Statement", 60);
+	}
+	
+	public void LookForGeorgeAWalkerQuote() {
+    	Log.info("attempting to look for George A Walker attribution");
+    	CoreFunctions.waitForBrowserToLoad(driver);
+		String textFound = CoreFunctions.explicitWaitTillElementVisibleGetText(driver, _BlockQuote, 60);
+		CoreFunctions.actualStringContainsExpectedString("GEORGE A WALKER",textFound);
+		
 	}
 }

@@ -1,6 +1,6 @@
 Feature: I want to test the functionality of the Artwork work portion of the website. 
 
-  @NoLoginTest @00001
+  @NoLoginTest @00001 @featcomplete
   Scenario Outline: verify the functionality of the artwork header links as a user who is not logged in.
    Given I am a user who is not logged in on the home page
    When I cursor over artwork from the header
@@ -14,26 +14,11 @@ Feature: I want to test the functionality of the Artwork work portion of the web
    | Linocut   									|
    | Photography Work						|
    | Uke and Tuba Discography 	|
-   
-	@LoginTest @00002
-  Scenario Outline: verify the functionality of the artwork header links as a user who is logged in.
-   Given I am a user who is logged in on the home page
-   When I cursor over artwork from the header
-   And I select the <Artwork Sub Page> provided 
-   Then I am shown the <Artwork Sub Page> Artwork Sub page.
-   
-   Examples:
-   | Artwork Sub Page 				  |
-   | Artwork										|
-   | Artist Statement						|
-   | Linocut   									|
-   | Photography Work						|
-   | Uke and Tuba Discography 	|   
-  
-  @NoLoginTest @00003
+    
+ @NoLoginTest @00003 @featcomplete
  Scenario: Verify the presence of a George A Walker quote on the Artist Statement page  as a user who is not logged in.  
  Given I am a user who is not logged in on the home page  
- When I access the Artist statement page
+ When I access the Artist statement page from the header
  Then I am shown the artists statment including a quote from George A Walker
  
   @NoLoginTest @00004

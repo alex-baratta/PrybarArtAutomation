@@ -40,7 +40,7 @@ public class ArtworkSteps {
 	} 
 	@When("^I cursor over artwork from the header")
 	public void i_cursor_over_artwork_from_the_header() {
-		homePage.expandArtworkDropDownOptionAndSelect();
+		homePage.expandArtworkDropDownOption();
 		
 	}
 	
@@ -71,10 +71,23 @@ public class ArtworkSteps {
 			Log.info("The artwork Sub Page "+ artworkSubPage + "is not present");	
 		}
 	}
-		@When("^I access the Artist statement page")
-		public void i_access_the_artist_statement_page() {
-			homePage.selectArtworkDropDownOption("Artist statement");
-			
+	@When("^I access the Artist statement page from the header")
+	public void i_access_the_artist_statement_page_from_the_header() {
+			homePage.expandArtworkDropDownOption();
+			homePage.selectArtworkDropDownOption("Artist Statement");
 		}
-
+		
+	@When("^I access the Linocut artwork page from the header")
+	public void i_access_the_linocut_artwork_page_from_the_header() {
+			homePage.expandArtworkDropDownOption();
+			homePage.selectArtworkDropDownOption("Linocut");
+		}
+	
+	@Then("^I am shown the artists statment including a quote from George A Walker")
+	public void I_am_shown_the_artist_statement_including_a_quote_from_George_A_Walker() {
+			statementPage.LookForGeorgeAWalkerQuote();
+		
+		
+	}
+	
 }

@@ -50,6 +50,57 @@ import managers.Log;
 		return ready;
 	}
 	
+	public static void writeToPropertiesFile(String key, String data) {
+		FileOutputStream fileOut = null;
+		FileInputStream fileIn = null;
+		try {
+			Properties configProperty = new Properties();
+			File file = new File(System.getProperty("user.dir") + "/Configs/Config.properties");
+			fileIn = new FileInputStream(file);
+			configProperty.load(fileIn);
+			configProperty.setProperty(key, data);
+			fileOut = new FileOutputStream(file);
+			configProperty.store(fileOut, "Data Saved to Property file");
+		}catch (Exception e) {
+				Assert.fail("ERROR : "+e.getMessage());
+		}finally {
+			try {
+				if (fileOut!=null)
+					fileOut.close();
+				} catch (IOException e) {
+					Assert.fail("ERROR : "+e.getMessage());
+				}
+		}
+			
+	}
+	
+
+	public static String getBrowser() {
+		String _browser = (System.getProperty("browser") !=null) ? System.getProperty("browser").toLowerCase()
+				: CoreFunctions.getPropertyFromConfig("browser").toLowerCase();
+		return _browser;
+	}
+	
+	private static String getPropertyFromConfig(String property) {
+		FileInputStream fi;
+		String value = "";
+		try {
+			fi = new FileInputStream(System.getProperty("user.dir")+"\\Configs\\Config.properties" );
+			Properties prop = new Properties();
+			prop.load(fi);
+			value = prop.getProperty(property);
+		} catch (Exception e) {
+			Assert.fail("ERROR : "+ e.getMessage());
+		}
+		return value;
+	}
+	
+	public static void hover(WebDriver driver, WebElement element) {
+		Actions action = new Actions(driver);
+		action.moveToElement(element).build().perform();
+		
+	}
+	
 	public static void explicitWaitTillElementBecomesClickable(WebDriver driver, WebElement element, String name) {
 		try {
 			Log.info("Waiting for " +name + " to display...");
@@ -96,57 +147,22 @@ import managers.Log;
 		WebDriverWait wait = new WebDriverWait (driver,Duration.ofSeconds(60));
 		wait.until(ExpectedConditions.refreshed(ExpectedConditions.elementToBeClickable(element)));			
 	}
-	
-	public static void writeToPropertiesFile(String key, String data) {
-		FileOutputStream fileOut = null;
-		FileInputStream fileIn = null;
-		try {
-			Properties configProperty = new Properties();
-			File file = new File(System.getProperty("user.dir") + "/Configs/Config.properties");
-			fileIn = new FileInputStream(file);
-			configProperty.load(fileIn);
-			configProperty.setProperty(key, data);
-			fileOut = new FileOutputStream(file);
-			configProperty.store(fileOut, "Data Saved to Property file");
-		}catch (Exception e) {
-				Assert.fail("ERROR : "+e.getMessage());
-		}finally {
-			try {
-				if (fileOut!=null)
-					fileOut.close();
-				} catch (IOException e) {
-					Assert.fail("ERROR : "+e.getMessage());
-				}
-		}
-			
-	}
-	
-	public static String getBrowser() {
-		String _browser = (System.getProperty("browser") !=null) ? System.getProperty("browser").toLowerCase()
-				: CoreFunctions.getPropertyFromConfig("browser").toLowerCase();
-		return _browser;
-	}
-	
-	private static String getPropertyFromConfig(String property) {
-		FileInputStream fi;
-		String value = "";
-		try {
-			fi = new FileInputStream(System.getProperty("user.dir")+"\\Configs\\Config.properties" );
-			Properties prop = new Properties();
-			prop.load(fi);
-			value = prop.getProperty(property);
-		} catch (Exception e) {
-			Assert.fail("ERROR : "+ e.getMessage());
-		}
-		return value;
-	}
-	
-	public static void hover(WebDriver driver, WebElement element) {
-		Actions action = new Actions(driver);
-		action.moveToElement(element).build().perform();
-		
-	}
 
+	public static String explicitWaitTillElementVisibleGetText(WebDriver driver, WebElement element, long time) {
+		String foundText = "";
+		try {
+			Log.info("looking for web element="+element+"  to get text");
+			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(time));
+			wait.until(ExpectedConditions.visibilityOf(element));
+			foundText = element.getText();
+			CustomReportListener.addStepLog("PASS","   "+ element +" element found.");
+			Log.info("INFO : "+ foundText + "     Text has been found" );
+		}catch (StaleElementReferenceException e) {
+		refreshAndWaitForElementVisibilityOnStale(driver, element);
+		}
+		return foundText;
+	}
+	
 	public static void click(WebDriver driver, WebElement element, String name) {
 		explicitWaitTillElementBecomesClickable(driver,element,name);
 		Log.info("Clicking on "+ name);
@@ -163,6 +179,19 @@ import managers.Log;
 		
 	}
 	
+	public static void actualStringContainsExpectedString(String expected, String actual ) {
+		boolean match=false;
+		if (actual.contains(expected)) {
+			match = true;
+			CustomReportListener.addStepLog("PASS", " :  Verified Expected String ="+ expected + "   is contained in the Actual String=" +actual);  
+		}
+		else {
+			CustomReportListener.addStepLog("FAIL", " :  Expected String =" +expected +" is not contained in the actual String="+ actual);
+			}
+		Assert.assertTrue(match);
+	}
+	
+		
 	
 	
 }
