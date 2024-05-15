@@ -163,6 +163,9 @@ import managers.Log;
 		return foundText;
 	}
 	
+
+	
+	
 	public static void click(WebDriver driver, WebElement element, String name) {
 		explicitWaitTillElementBecomesClickable(driver,element,name);
 		Log.info("Clicking on "+ name);
@@ -191,7 +194,6 @@ import managers.Log;
 		Assert.assertTrue(match);
 	}
 	
-		
 	
 	
 }

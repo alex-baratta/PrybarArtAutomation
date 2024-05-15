@@ -71,6 +71,7 @@ public class ArtworkSteps {
 			Log.info("The artwork Sub Page "+ artworkSubPage + "is not present");	
 		}
 	}
+	
 	@When("^I access the Artist statement page from the header")
 	public void i_access_the_artist_statement_page_from_the_header() {
 			homePage.expandArtworkDropDownOption();
@@ -84,10 +85,32 @@ public class ArtworkSteps {
 		}
 	
 	@Then("^I am shown the artists statment including a quote from George A Walker")
-	public void I_am_shown_the_artist_statement_including_a_quote_from_George_A_Walker() {
-			statementPage.LookForGeorgeAWalkerQuote();
-		
-		
+	public void i_am_shown_the_artist_statement_including_a_quote_from_George_A_Walker() {
+			statementPage.LookForGeorgeAWalkerQuote();		
+		}
+	
+	@Then("^I am shown a Linocut artwork page Materials list")
+	public void i_am_shown_a_materials_list(){
+			linocutPage.lookForMaterialsList();
+		}
+	
+	@And("^I am shown a gallery of images")
+	public void i_am_shown_a_gallery_of_images() {
+			linocutPage.lookForGalleryObject();
+		}
+	
+	@And("^I select a random image from the Linocut Pages gallery of images")
+	public void I_select_a_random_image_from_the_Linocut_Pages_gallery_of_images() {
+			linocutPage.selectAnImageFromTheGalleryOfImages();
+		}
+	
+	@And("^I select the (.+) gallery key")
+	public void I_select_the_Direction_key(String direction) {
+			linocutPage.selectGalleryDirectionKey(direction);
 	}
 	
+	@Then("^I am taken to the image in the corrisponding (.+)")
+	public void I_am_taken_to_the_image_in_the_corrisponding_direction(String direction) {
+		
+	}
 }

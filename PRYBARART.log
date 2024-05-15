@@ -154,3 +154,1086 @@ Clicking on Uke and Tuba Discography
 attempting to look for page title
 Waiting for Uke and Tuba Discography to display...
 SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+DRIVER ERROR: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 124
+Current browser version is 120.0.6099.109 with binary path C:\Users\alexb\.cache\selenium\chrome\win64\120.0.6099.109\chrome.exe 
+Host info: host: 'DESKTOP-J5CLNVO', ip: '192.168.1.179'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, start-maximized, enable-automation, --no-sandbox, --disable-infobars, --disable-dev-shm-usage, --disable-gpu, --ignore-certificate-errors, --incognito], binary: C:\Users\alexb\.cache\selen..., extensions: [], prefs: {Profile.default_content_settings.popups: 0, download.default_directory: C:\Users\alexb\Downloads\}, useAutomationExtension: false}, pageLoadStrategy: none}]}]
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+The dropdown option Artist statementis not present
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+The dropdown option Artist statementis not present
+attempting to look for George A Walker attribution
+looking for web element=Proxy element for: DefaultElementLocator 'By.xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']'  to get text
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for George A Walker attribution
+looking for web element=[[ChromeDriver: chrome on windows (5b1da07e2975558d26262de2c93ff7c0)] -> xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']]  to get text
+SUCCCESS : Your art is what you do, it is your unique voice in the world. there is no art with out someone to share it with. Share your art for the joy of it! Don’t listen to anyone who tells you what art is or isn’t.
+GEORGE A WALKER – INK & PAPER     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for George A Walker attribution
+looking for web element=[[ChromeDriver: chrome on windows (9d5ed59b7a1558646b6b7320deed110f)] -> xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']]  to get text
+INFO : Your art is what you do, it is your unique voice in the world. there is no art with out someone to share it with. Share your art for the joy of it! Don’t listen to anyone who tells you what art is or isn’t.
+GEORGE A WALKER – INK & PAPER     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for George A Walker attribution
+looking for web element=[[ChromeDriver: chrome on windows (f5ffd9dc402ca4358211a3a81dcfd961)] -> xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']]  to get text
+INFO : Your art is what you do, it is your unique voice in the world. there is no art with out someone to share it with. Share your art for the joy of it! Don’t listen to anyone who tells you what art is or isn’t.
+GEORGE A WALKER – INK & PAPER     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for George A Walker attribution
+looking for web element=[[ChromeDriver: chrome on windows (e1a23811f8a928693d3bee12adb774ca)] -> xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']]  to get text
+INFO : Your art is what you do, it is your unique voice in the world. there is no art with out someone to share it with. Share your art for the joy of it! Don’t listen to anyone who tells you what art is or isn’t.
+GEORGE A WALKER – INK & PAPER     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for George A Walker attribution
+looking for web element=[[ChromeDriver: chrome on windows (876cdd939a6dd09cc772d8f4dc805fbc)] -> xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']]  to get text
+INFO : Your art is what you do, it is your unique voice in the world. there is no art with out someone to share it with. Share your art for the joy of it! Don’t listen to anyone who tells you what art is or isn’t.
+GEORGE A WALKER – INK & PAPER     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Waiting for materials list: to display...
+SUCCESS : materials list: is displayed
+looking for web element=[[ChromeDriver: chrome on windows (cca2d0c654f2ade23d0509f4b60f72b3)] -> css selector: div[class='post-content entry-content'] ul]  to get text
+INFO : Flexcut micro palm set
+Flexcut Carving Tools Printmaking Set
+Speedball Block printing ink
+HRLORKC brayer
+SGHUO 4?x6? Pink Rubber Carving Blocks Linoleum
+Strathmore 300 Series Printmaking Paper Pad 5?x7?
+Handmade White Deckle Edge Blank 4?x6? Cotton Papers     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Waiting for materials list: to display...
+SUCCESS : materials list: is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Waiting for materials list: to display...
+SUCCESS : materials list: is displayed
+looking for web element=[[ChromeDriver: chrome on windows (36bb3d2b3741eb46b283689b34380f33)] -> css selector: div[class='post-content entry-content'] ul]  to get text
+INFO : Flexcut micro palm set
+Flexcut Carving Tools Printmaking Set
+Speedball Block printing ink
+HRLORKC brayer
+SGHUO 4?x6? Pink Rubber Carving Blocks Linoleum
+Strathmore 300 Series Printmaking Paper Pad 5?x7?
+Handmade White Deckle Edge Blank 4?x6? Cotton Papers     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Waiting for materials list: to display...
+SUCCESS : materials list: is displayed
+looking for web element=[[ChromeDriver: chrome on windows (090827f2a113c7a9246dc7c0a53f9b31)] -> css selector: div[class='post-content entry-content'] ul]  to get text
+INFO : Flexcut micro palm set
+Flexcut Carving Tools Printmaking Set
+Speedball Block printing ink
+HRLORKC brayer
+SGHUO 4?x6? Pink Rubber Carving Blocks Linoleum
+Strathmore 300 Series Printmaking Paper Pad 5?x7?
+Handmade White Deckle Edge Blank 4?x6? Cotton Papers     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Waiting for materials list: to display...
+SUCCESS : materials list: is displayed
+looking for web element=[[ChromeDriver: chrome on windows (d0d9ceae3e4d67389876fcc0d49d3f1a)] -> css selector: div[class='post-content entry-content'] ul]  to get text
+INFO : Flexcut micro palm set
+Flexcut Carving Tools Printmaking Set
+Speedball Block printing ink
+HRLORKC brayer
+SGHUO 4?x6? Pink Rubber Carving Blocks Linoleum
+Strathmore 300 Series Printmaking Paper Pad 5?x7?
+Handmade White Deckle Edge Blank 4?x6? Cotton Papers     Text has been found
+Waiting for null to display...
+SUCCESS : null is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Waiting for Left directopn key to display to display...
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Waiting for Right directopn key to display to display...
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Waiting for Left directopn key to display to display...
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Waiting for Right directopn key to display to display...
+Waiting for null to display...
+SUCCESS : null is displayed
+Clicking on null
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Clicking on ARTWORK
+attempting to look for page title
+Waiting for ARTWORK to display...
+SUCCESS : ARTWORK is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for page title
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Clicking on Photography Work
+attempting to look for page title
+Waiting for Photography Work to display...
+SUCCESS : Photography Work is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Clicking on Uke and Tuba Discography
+attempting to look for page title
+Waiting for Uke and Tuba Discography to display...
+SUCCESS : Uke and Tuba Discography is displayed
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Artist Statement to display...
+SUCCESS : Artist Statement is displayed
+Clicking on Artist Statement
+attempting to look for George A Walker attribution
+looking for web element=[[ChromeDriver: chrome on windows (057c98a53297fb7c729e764d69963d7b)] -> xpath: //blockquote[@class='wp-block-quote is-layout-flow wp-block-quote-is-layout-flow']]  to get text
+INFO : Your art is what you do, it is your unique voice in the world. there is no art with out someone to share it with. Share your art for the joy of it! Don’t listen to anyone who tells you what art is or isn’t.
+GEORGE A WALKER – INK & PAPER     Text has been found
+Getting Web Driver
+Creating Local Driver with browser: chrome
+Invoking Chrome Browser
+Getting Web Driver
+attempting to Open Homepage
+https://prybar.art
+Waiting for HELLO to display...
+SUCCESS : HELLO is displayed
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Clicking on Linocut
+attempting to look for page title
+Waiting for Linocut to display...
+SUCCESS : Linocut is displayed
+Waiting for materials list: to display...
+SUCCESS : materials list: is displayed
+looking for web element=[[ChromeDriver: chrome on windows (41cf8a163b355914ba4bd46ade294182)] -> css selector: div[class='post-content entry-content'] ul]  to get text
+INFO : Flexcut micro palm set
+Flexcut Carving Tools Printmaking Set
+Speedball Block printing ink
+HRLORKC brayer
+SGHUO 4?x6? Pink Rubber Carving Blocks Linoleum
+Strathmore 300 Series Printmaking Paper Pad 5?x7?
+Handmade White Deckle Edge Blank 4?x6? Cotton Papers     Text has been found
+Waiting for null to display...
+SUCCESS : null is displayed
