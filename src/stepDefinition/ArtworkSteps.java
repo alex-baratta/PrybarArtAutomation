@@ -111,6 +111,6 @@ public class ArtworkSteps {
 	
 	@Then("^I am taken to the image in the corrisponding (.+)")
 	public void I_am_taken_to_the_image_in_the_corrisponding_direction(String direction) {
-		
+		   linocutPage.checkLinocutGalleryImageIsCorrectPostDirection(direction);
 	}
 }

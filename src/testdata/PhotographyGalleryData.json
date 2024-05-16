@@ -1,0 +1,205 @@
+[
+	{
+		"imageNumber":"1",
+		"details": {
+				"title":"Goofy Skeleton",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240130_223817-scaled-1.jpg",
+				"xpath":"//img[@alt='Goofy Skeleton']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"2",
+			"details": {
+				"title":"Doom Cacodemon",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240317_231239-scaled-1.jpg",
+				"xpath":"//img[@alt='Doom Cacodemon']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"3",
+			"details": {
+				"title":"Doom Revenant",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240321_213907-scaled-1.jpg",
+				"xpath":"//img[@alt='Doom Revenant']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"4",
+			"details": {
+				"title":"figure drawing study",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240314_212746-scaled-1.jpg",
+				"xpath":"//img[@alt='figure drawing study']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"5",
+			"details": {
+				"title":"The Rocketeer",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240204_190020-scaled-1.jpg",
+				"xpath":"//img[@alt='The Rocketeer']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"6",
+			"details": {
+				"title":"MK logo 2 tone",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240211_212431-scaled-1.jpg",
+				"xpath":"//img[@alt='MK logo 2 tone']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"7",
+			"details": {
+				"title":"skull",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240305_074459-scaled-1.jpg",
+				"xpath":"//img[@alt='skull']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"8",
+			"details": {
+				"title":"Half-life Gman",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240208_214328-scaled-1.jpg",
+				"xpath":"//img[@alt='Half-life Gman']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"9",
+			"details": {
+				"title":"Half-life barnacle and barrel",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240213_230018-scaled-1.jpg",
+				"xpath":"//img[@alt='Half-life barnacle and barrel']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"10",
+			"details": {
+				"title":"Half-life Headcrab Zombie",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240211_211003-scaled-1.jpg",
+				"xpath":"//img[@alt='Half-life Headcrab Zombie']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"11",
+			"details": {
+				"title":"Half-life Gordon",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240210_153558-scaled-1.jpg",
+				"xpath":"//img[@alt='Half-life Gordon']",
+				"cssselector":""
+
+			}
+	},
+	{
+		"imageNumber":"12",
+			"details": {
+				"title":"Half-life 2 Combine",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240212_224655-scaled-1.jpg",
+				"xpath":"//img[@alt='Half-life 2 Combine']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"13",
+			"details": {
+				"title":"dive helmet",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240224_201114-scaled-1.jpg",
+				"xpath":"//img[@alt='dive helmet']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"14",
+			"details": {
+				"title":"eyeball",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240106_103415-scaled-1.jpg",
+				"xpath":"//img[@alt='eyeball']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"15",
+			"details": {
+				"title":"gateway computer",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240228_222722-scaled-1.jpg",      
+				"xpath":"//img[@alt='gateway computer']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"16",
+			"details": {
+				"title":"Counter Strike DE_Dust2 mini map",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240218_215253-scaled-1.jpg",
+				"xpath":"//img[@alt='Counter Strike DE_Dust2 mini map']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"17",
+			"details": {
+				"title":"line study",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240119_230851-scaled-1.jpg",
+				"xpath":"//img[@alt='line study']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"18",
+			"details": {
+				"title":"Calvin",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240113_111532-scaled-1.jpg",
+				"xpath":"//img[@alt='Calvin']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"19",
+			"details": {
+				"title":"Blackmetal kid",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240118_132206-scaled-1.jpg",
+				"xpath":"//img[@alt='Blackmetal kid']",
+				"cssselector":""
+			}
+	},
+	{
+		"imageNumber":"20",
+			"details": {
+				"title":"Butterfly",
+				"description":"",
+				"url":"https://prybar.art/wp-content/uploads/2024/04/20240114_135832-scaled-1.jpg",
+				"xpath":"//img[@alt='Butterfly']",
+				"cssselector":""
+			}
+	}		
+		
+	
+]

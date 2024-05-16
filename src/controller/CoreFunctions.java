@@ -11,6 +11,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -163,8 +164,16 @@ import managers.Log;
 		return foundText;
 	}
 	
-
-	
+	public static void explicitWaitForInvisibilityOfElement(WebDriver driver, WebElement element, long time) {
+		try {
+			Log.info("waiting for element: "+ " to disappear");
+			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(time));
+			wait.until(ExpectedConditions.invisibilityOf(element));
+			CustomReportListener.addStepLog("PASS","   "+ element +" element no longer found.");
+		}catch(TimeoutException e){
+            Assert.fail("Time Out On : "+element);
+        }
+	}
 	
 	public static void click(WebDriver driver, WebElement element, String name) {
 		explicitWaitTillElementBecomesClickable(driver,element,name);
@@ -194,6 +203,17 @@ import managers.Log;
 		Assert.assertTrue(match);
 	}
 	
+	public static void actualStringEqualsExpectedString(String expected, String actual ) {
+		boolean match=false;
+		if (actual.equals(expected)) {
+			match = true;
+			CustomReportListener.addStepLog("PASS", " :  Verified Expected String ="+ expected + "  matches the Actual String=" +actual);  
+		}
+		else {
+			CustomReportListener.addStepLog("FAIL", " :  Expected String =" +expected +" does NOT match the Actual String="+ actual);
+			}
+		Assert.assertTrue(match);
+	}
 	
 	
 }

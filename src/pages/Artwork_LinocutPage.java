@@ -1,20 +1,21 @@
 package pages;
-import java.lang.ModuleLayer.Controller;
-import java.text.MessageFormat;
-import java.text.NumberFormat;
-import java.text.ParseException;
+import java.time.Duration;
+import java.util.Random;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import controller.Base;
 import controller.CoreFunctions;
+import dataProviders.GalleryData;
 import managers.FileReaderManager;
 import managers.Log;
-import controller.Base;
 
 public class Artwork_LinocutPage extends Base {
 
@@ -45,7 +46,18 @@ public class Artwork_LinocutPage extends Base {
 	
 	@FindBy(how = How.CSS, using="button[aria-label='Previous Media']")
 	private WebElement _GalleryPreviousImage;
-
+	
+	@FindBy(how = How.CSS, using=".fg-media-content")
+	private WebElement _GalleryLargeView;
+	
+	@FindBy(how = How.CLASS_NAME, using="fg-loader")
+	private WebElement _galleryLoadSpinner;
+	
+	
+	int galleryImageID =0;
+	int gallerySize =20;
+	int movedGalleryImageID =0;
+	
 	public void lookForPageTitle() {
     	Log.info("attempting to look for page title");
 		CoreFunctions.waitForBrowserToLoad(driver);
@@ -65,25 +77,52 @@ public class Artwork_LinocutPage extends Base {
 	}
 
 	public void selectAnImageFromTheGalleryOfImages() {
-		WebElement randomImage = driver.findElement(By.xpath(("//img[@alt='Goofy Skeleton']")));
-		CoreFunctions.click(driver, randomImage, null);
+		CoreFunctions.waitForBrowserToLoad(driver);		
+		Random r = new Random();
+		galleryImageID = r.nextInt(gallerySize-1) + 1;		
+		GalleryData.Details galleryImage = FileReaderManager.getInstance()
+				.getJsonReader().getLinocutGalleryImageByImageNumber(Integer.toString(galleryImageID)).details;		
+		Log.info("galleryImage.cssselector= "+ galleryImage.cssselector);
+		WebElement randomImage = driver.findElement(By.cssSelector(galleryImage.cssselector));
+		JavascriptExecutor js = (JavascriptExecutor) driver;  
+		js.executeScript("arguments[0].scrollIntoView();", randomImage );
+		CoreFunctions.explicitWaitTillElementBecomesClickable(driver, randomImage, galleryImage.title);
+		CoreFunctions.click(driver, randomImage,"Random Gallery Image "+ galleryImage.title );		
 	}
 
 	public void selectGalleryDirectionKey(String direction) {
-		CoreFunctions.waitForBrowserToLoad(driver);
-		Log.info("Waiting for " +direction + " directopn key to display to display...");
-		if (direction.equals("Left")){
-			CoreFunctions.click(driver,_GalleryPreviousImage,null);
+		CoreFunctions.explicitWaitTillElementVisibility(driver,_GalleryLargeView,"Gallery Image in Large view",60);
+		if (direction.equals("Left")){		
+			CoreFunctions.click(driver,_GalleryPreviousImage,"Left");
+			movedGalleryImageID = galleryImageID -1;
 		}
 		else if(direction.equals("Right")) {
-			CoreFunctions.click(driver,_GalleryNextImage,null);
+			CoreFunctions.click(driver,_GalleryNextImage,"Right");
+			movedGalleryImageID = galleryImageID +1;
 		}
 		else {
-			
 		}
+		if (movedGalleryImageID == gallerySize+1) {
+			movedGalleryImageID = 1;
+			}
+		else if (movedGalleryImageID == 0) {
+			movedGalleryImageID = gallerySize;
+			}
+	}
+
+	public void checkLinocutGalleryImageIsCorrectPostDirection(String direction) {
 		
+		GalleryData.Details movedGalleryImage = FileReaderManager.getInstance()
+				.getJsonReader().getLinocutGalleryImageByImageNumber(Integer.toString(movedGalleryImageID)).details;
+		CoreFunctions.explicitWaitTillElementVisibility(driver,_galleryLoadSpinner,"loading spinner",60);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(3));
+		Log.info(wait.withMessage("waiting 3 seconds for gallery image to reload"));
+		CoreFunctions.explicitWaitTillElementVisibility(driver,_GalleryLargeView,direction +" Gallery Image in Large view",60);
+		String largeViewImageSrc =_GalleryLargeView.getAttribute("src"); 
+		CoreFunctions.actualStringEqualsExpectedString(movedGalleryImage.url, largeViewImageSrc);
 		
 	}
+	
 
 	
 	

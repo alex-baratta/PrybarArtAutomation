@@ -57,16 +57,27 @@ public class ConfigFileReader {
         }
         return true;    
     }
-    public String getReportConfigPath() {
+    
+    @SuppressWarnings("unused")
+	public String getReportConfigPath() {
     	String reportConfigPath = System.getProperty("user.dir") +properties.getProperty("reportConfigPath");
     	if (reportConfigPath != null) {
     		return reportConfigPath;}
     	else {
     		throw new RuntimeException("Report Config path not set in Cofiguration.properties");
     	}
-    	
-    	
     }
+    
+    @SuppressWarnings("unused")
+	public String getTestDataPath() {
+    	String testDataResourcePath = System.getProperty("user.dir") 
+    			+ properties.getProperty("testDataReourcePath");
+    	if (testDataResourcePath != null)
+    		return testDataResourcePath;
+    	else
+    		throw new RuntimeException("Report Config Path Not found in Configuration.properties");  	
+    }
+    
     public String getHomePageUrl() {
     	return System.getProperty("URL");
     	
