@@ -17,16 +17,21 @@ public class JsonReader {
 			.getConfigReader().getTestDataPath() + "PhotographyGalleryData.json";
 	private final String _ukeAndTubaDataPath = FileReaderManager.getInstance()
 			.getConfigReader().getTestDataPath() + "UkeAndTubaGalleryData.json";
+	private final String _urlDataPath = FileReaderManager.getInstance()
+			.getConfigReader().getTestDataPath() + "urlData.json";	
 	
 	private List<GalleryData> _linocutGalleryDataList;
 	private List<GalleryData> _photographyGalleryDataList;
 	private List<GalleryData> _ukeAndTubaGalleryDataList;
+	private List<UrlData> _urlDataList;
 	
 	public JsonReader () {
 		
 		_linocutGalleryDataList = getLinocutGalleryData();
 		_photographyGalleryDataList = getPhotographyGalleryData();
 		_ukeAndTubaGalleryDataList = getUkeAndTubaGalleryData();
+		_urlDataList=getUrlData();
+		
 	}
 
 	private List<GalleryData> getLinocutGalleryData() {
@@ -79,6 +84,27 @@ public class JsonReader {
 				}catch(IOException ignore){	
 				}
 		}
+	}
+	
+	private List<UrlData> getUrlData() {
+		Gson gson = new Gson();
+		BufferedReader bufferReader = null;
+		Log.info("_urlDataPath="+ _urlDataPath);
+		try {
+			bufferReader = new BufferedReader(new FileReader(_urlDataPath));
+			UrlData[] urls = gson.fromJson(bufferReader, UrlData[].class );
+			return Arrays.asList(urls);
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException("missing url data json");
+		} finally {
+				try {
+					if (bufferReader!=null) {bufferReader.close();}
+				}catch(IOException ignore){	
+				}
+		}
+	}
+	public final UrlData getUrls() {
+		return _urlDataList.stream().findAny().get();
 	}
 	
 	public final GalleryData getLinocutGalleryImageByImageNumber(String imageNumber) {

@@ -84,4 +84,8 @@ public class HomePage extends Base{
 			Log.info("The dropdown option "+ dropdownOption + "is not present");	
 		}
 	}
+
+	public void selectArtworkLink() {
+			CoreFunctions.click(driver, _artworkDropDownArtwork, "ARTWORK");
+	}
 }

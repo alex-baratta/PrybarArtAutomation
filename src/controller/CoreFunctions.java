@@ -214,7 +214,27 @@ import managers.Log;
 			}
 		Assert.assertTrue(match);
 	}
+	public static String currentUrlAsString (WebDriver driver) {
+		String url = driver.getCurrentUrl();
+		return url;
+	}
 	
+	
+	public static void goBackToPreviousPage(WebDriver driver, String expectedUrl) {
+		Log.info("expected URL: " + expectedUrl);
+		CustomReportListener.addStepLog("INFO"," :  URL prior to navigating back="+ currentUrlAsString(driver));
+		Log.info("Navigating back with back button.");
+		driver.navigate().back();
+		String afterBackUrl = currentUrlAsString(driver);
+		if (expectedUrl.equalsIgnoreCase(afterBackUrl)){
+			CustomReportListener.addStepLog("PASS"," :  navigating back worked expectedUrl= " +
+											expectedUrl +"  matches afterBackUrl= "+afterBackUrl);
+		}
+		else {
+			CustomReportListener.addStepLog("FAIL"," :  navigating back did not work expectedUrl= "
+											+expectedUrl +"  does not match afterBackUrl= "+afterBackUrl);
+		}
+	}
 	
 }
 	

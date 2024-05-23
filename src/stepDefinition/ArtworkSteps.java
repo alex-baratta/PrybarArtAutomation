@@ -1,4 +1,7 @@
 package stepDefinition;
+import java.util.HashMap;
+
+import controller.CoreFunctions;
 import cucumber.TestContext;
 
 import io.cucumber.java.en.And;
@@ -21,8 +24,7 @@ public class ArtworkSteps {
 	Artwork_PhotographyPage photographyPage;
 	Artwork_LinocutPage linocutPage;
 	Artwork_UkeAndTubaPage ukeAndTubaPage;
-	
-
+	HashMap<String, String> results= new HashMap<String,String>(); 
 	
 	public ArtworkSteps(TestContext context) {
 		testContext = context;
@@ -109,8 +111,41 @@ public class ArtworkSteps {
 			linocutPage.selectGalleryDirectionKey(direction);
 	}
 	
-	@Then("^I am taken to the image in the corrisponding (.+)")
-	public void I_am_taken_to_the_image_in_the_corrisponding_direction(String direction) {
+	@Then("^I am taken to the linocut image in the corrisponding (.+)")
+	public void I_am_taken_to_the_linocut_image_in_the_corrisponding_direction(String direction) {
 		   linocutPage.checkLinocutGalleryImageIsCorrectPostDirection(direction);
 	}
+	@When("^I enter the Artwork Page")
+	public void i_enter_the_artwork_page() {	
+		homePage.selectArtworkLink();
+	}
+	
+	@When("^I select the Link for each sub page on the artwork page")
+	public void i_select_the_link_for_each_sub_page_on_the_artwork_page(){
+		results=artworkPage.recordArtworkLinksfunctionality();
+	}
+	
+	@Then("I am taken to the correct corrisponding artwork page")
+	public void i_am_taken_to_the_correct_corrisponding_artwork_page() {
+		artworkPage.verifyArtworkLinkResults(results);
+		
+	}
+	@When("^I access the Photography Page")
+	public void i_access_the_photography_page() {
+		homePage.expandArtworkDropDownOption();
+		homePage.selectArtworkDropDownOption("Photography Work");
+	}
+	
+	@Then("^I am shown the photography gear listed")
+	public void i_am_show_the_photography_gear_listed() {
+		photographyPage.lookForPageTitle();
+		photographyPage.lookForPhotographyGear();	
+	}
+	
+	@And("^I am shown a gallery of images where the titles are displayed below the picture.")
+	public void i_am_show_a_gallery_of_images_where_the_titles_are_displayed_below_the_picture() {
+		photographyPage.lookForGalleryObject();
+		photographyPage.lookForCaptionObject();
+	}
+	
 }

@@ -114,16 +114,14 @@ public class Artwork_LinocutPage extends Base {
 		
 		GalleryData.Details movedGalleryImage = FileReaderManager.getInstance()
 				.getJsonReader().getLinocutGalleryImageByImageNumber(Integer.toString(movedGalleryImageID)).details;
-		CoreFunctions.explicitWaitTillElementVisibility(driver,_galleryLoadSpinner,"loading spinner",60);
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(3));
-		Log.info(wait.withMessage("waiting 3 seconds for gallery image to reload"));
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		CoreFunctions.explicitWaitTillElementVisibility(driver,_GalleryLargeView,direction +" Gallery Image in Large view",60);
 		String largeViewImageSrc =_GalleryLargeView.getAttribute("src"); 
-		CoreFunctions.actualStringEqualsExpectedString(movedGalleryImage.url, largeViewImageSrc);
-		
+		CoreFunctions.actualStringEqualsExpectedString(movedGalleryImage.url, largeViewImageSrc);		
 	}
-	
 
-	
-	
 }
